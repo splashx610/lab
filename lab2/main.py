@@ -48,4 +48,3 @@ key = generate_key()
 encrypted_text = encrypt_text(text)
 write_file(encrypted_text)
 print(text == decrypt_text(encrypted_text))
-© 2020 GitHub, Inc.
