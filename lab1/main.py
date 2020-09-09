@@ -38,4 +38,4 @@ shift = int(input('shift: '))
 encrypted_text = encrypt_text(text, shift)
 write_file(encrypted_text)
 print(text == decrypt_text(encrypted_text, shift))  # проверка, что decrypt_text правильно работает
-© 2020 GitHub, Inc.
+
